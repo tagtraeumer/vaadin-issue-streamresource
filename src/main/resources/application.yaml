@@ -1,0 +1,12 @@
+spring:
+  mvc:
+    view:
+      prefix: "/WEB-INF/jsp/"
+      suffix: ".jsp"
+  thymeleaf:
+    enabled: false
+server:
+  servlet: 
+    contextPath: "/"
+vaadin:
+  compatibilityMode: false
